@@ -19,7 +19,12 @@ with st.sidebar:
 if (selected == 'About'):
     # page title
     st.title('About')
-
+    st.text('This is a Multiple Disease Prediction Web Application which uses machine learning.')
+    st.text('Use the Tabs to select which disease needs to be detected.')
+    st.text('Thereafter input the relevant information of the patient and click the')
+    st.text('Test Result button at the bottom of the page.')
+    st.text('Only numerical values will be accepted')
+    
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     # page title
