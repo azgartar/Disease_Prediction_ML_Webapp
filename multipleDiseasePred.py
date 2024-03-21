@@ -24,6 +24,7 @@ if (selected == 'About'):
     st.text('Thereafter input the relevant information of the patient and click the')
     st.text('Test Result button at the bottom of the page.')
     st.text('Only numerical values will be accepted')
+    st.text('By: Azgar Tar')
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
